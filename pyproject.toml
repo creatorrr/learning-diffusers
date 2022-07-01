@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "learning-diffusers"
+version = "0.1.0"
+description = ""
+authors = ["Diwank Singh Tomer <diwank.singh@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+transformers = "^4.20.1"
+Pillow = "^9.1.1"
+einops = "^0.4.1"
+importlib-metadata = "^4.12.0"
+numpy = "^1.23.0"
+nbformat = "^5.4.0"
+
+[tool.poetry.dev-dependencies]
+ipython = "^8.4.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
